@@ -1,27 +1,21 @@
-/*let math1 :any =prompt("Maths Marks   ");
-let phy : any =prompt("Physics Marks   ");
-let chem : any =prompt("Chemistry Marks  ");
+/*function calculateGrade(math: number, physics: number, chem: number) : string
+{
+   var avg = (math + physics + chem) / 3;
 
-let num1 =  math1 as number ;
-let num2 = phy as number;
-let num3 = chem as number;
-let sum : number =num1+num2+num3;
- let avg : number =sum / 3;
- if(avg>=90 && avg<=100){
-    console.log(`${avg} A Grade`);
-    }
-    else if(avg>=70 && avg <90){
-        console.log(`${avg} B Grade`);
-     
-    }else if(avg>=35 && avg<70 ){
+   if (avg <= 70) {
+    return `Grade C (${avg})`
+   } else if (avg > 70 && avg < 90) {
+    return `Grade B (${avg})`;
+   } else {
+    return `Grade A (${avg})`;
+   }
+}
 
-    
-    console.log(`${avg}  C Grade`);
+var math = Number(prompt(`Enter the math marks`)); // 80
+var physics = Number(prompt(`Enter the physics marks`)) ; // 75
+var chem = Number(prompt(`Enter the chem marks`));
 
-    }
-    else
-    console.log(`Invalid Input`);
-    */
+console.log(calculateGrade(math, physics, chem));  */
     
     const maths : any = prompt(`Enter Maths Marks `);
     const m = parseInt(maths);
